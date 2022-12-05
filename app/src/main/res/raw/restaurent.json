@@ -1,0 +1,332 @@
+[
+  {
+    "name":"네네치킨 신창점",
+    "minimum":17000,
+    "delivery_charge": 3000,
+    "image":"data:image/png;base64,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",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 9:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 11:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 11:00 PM",
+      "Saturday":"10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "레드 마요 치킨",
+        "price": 19000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20210621_223%2F1624209533845HObWF_JPEG%2Fimage.jpg&type=f330_232"
+      },
+      {
+        "name": "청양 마요 치킨",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_126%2F16091749693262taMJ_JPEG%2Fimage.jpg&type=f330_232"
+      },
+      {
+        "name": "어니언 스노윙",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20220322_170%2F1647883825659PUxvR_JPEG%2Fimage.jpg&type=f330_232"
+      },
+      {
+        "name": "치즈 스노윙",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_289%2F1609204901717g1FTG_JPEG%2Fimage.jpg&type=f330_232"
+      },
+      {
+        "name": "매콤 치즈 스노윙",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_297%2F1609176947307JzO5i_JPEG%2Fimage.jpg&type=f174_174"
+      },
+      {
+        "name": "오리엔탈 파닭",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_238%2F1609204903143LNV1O_JPEG%2Fimage.jpg&type=f174_174"
+      },
+      {
+        "name": "소이 갈릭 치킨",
+        "price": 18000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_166%2F1609204908735gqxYT_JPEG%2Fimage.jpg&type=f174_174"
+      },
+      {
+        "name": "후라이드 치킨",
+        "price": 15000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_263%2F1609204897738NFnv1_JPEG%2Fimage.jpg&type=f174_174"
+      },
+      {
+        "name": "핫 후라이드 치킨",
+        "price": 16000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_169%2F1609204898150TIjaR_JPEG%2Fimage.jpg&type=f174_174"
+      },
+      {
+        "name": "양념 치킨",
+        "price": 17000,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20201229_131%2F16092048999864lWsp_JPEG%2Fimage.jpg&type=f174_174"
+      }
+    ]
+  },
+
+  {
+    "name":"청년피자 신창점",
+    "minimum":16000,
+    "delivery_charge": 2000,
+    "image":"https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMjZfNDcg%2FMDAxNjE2NzE5MTg5MjM3.k8UCP789_PFr4IGz2pr7iCowxxGCU6JNg0ioJ9zYdHAg.PwrIIZ0l8w_nkp0hppiI3yrZptWALHwkHp29QYBMI7Ag.JPEG.mchangupmedia%2F4.jpg&type=sc960_832",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 1:00 PM"
+    },
+    "menus": [
+      {
+        "name": "바삭한 허니비 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_245%2F1636076092246kLiq8_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25B9%25D9%25BB%25E8%25C7%25D1%25C7%25E3%25B4%25CF%25BA%25F1F4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "진짜 감자 피자 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_166%2F1636076086534likNI_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25C0%25CE%25B1%25E2%25C1%25F8%25C2%25A5%25B0%25A8%25C0%25DA%25C7%25C7%25C0%25DAF4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "할라 불고기 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_183%2F1636076071210I95Mn_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25C0%25CE%25B1%25E2%25C7%25D2%25B6%25F3%25BA%25D2%25B0%25ED%25B1%25E2F4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "리얼 치즈 피자 F",
+        "price": 21900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_278%2F1636076069298Cmw27_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25B8%25AE%25BE%25F3%25C4%25A1%25C1%25EEF4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "리얼 페페로니 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_280%2F1636076068172bjfaI_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25B8%25AE%25BE%25F3%25C6%25E4%25C6%25E4%25B7%25CE%25B4%25CFF4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "리얼 불고기 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_78%2F163607606058833kWE_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25B8%25AE%25BE%25F3%25BA%25D2%25B0%25ED%25B1%25E2F4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "슈퍼 슈프림 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_277%2F1636076071115nhcNm_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25BD%25B4%25C6%25DB%25BD%25B4%25C7%25C1%25B8%25B2F4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "야채 피자 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_184%2F1636076068759CdX3O_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25BE%25DF%25C3%25A4%25C7%25C7%25C0%25DAF4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "하와이안 피자 F",
+        "price": 23900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_115%2F1636076072947jILeE_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25C7%25CF%25BF%25CD%25C0%25CC%25BE%25C8F4-5%25C0%25CE_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "알리오올리오 파스타",
+        "price": 5900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_185%2F16360760717590w1iW_JPEG%2F%25C1%25A6%25C8%25DEFR_20211001_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25BD%25C5%25B8%25DE%25B4%25BA-%25BE%25CB%25B8%25AE%25BF%25C0%25BF%25C3%25B8%25AE%25BF%25C0%25C6%25C4%25BD%25BA%25C5%25B8_1080x640.jpg&type=h166"
+      },
+      {
+        "name": "로제쉬림프 파스타",
+        "price": 6900,
+        "url": "https://search.pstatic.net/common/?autoRotate=true&quality=95&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211105_134%2F1636076078809mD1jz_JPEG%2F%25C1%25A6%25C8%25DEFR_20210716_%25C3%25BB%25B3%25E2%25C7%25C7%25C0%25DA_%25B7%25CE%25C1%25A6%25BD%25AC%25B8%25B2%25C7%25C1%25C6%25C4%25BD%25BA%25C5%25B8_1080x640.jpg&type=h166"
+      }
+    ]
+  },
+  {
+    "name":"맥도날드 신창점",
+    "minimum":14000,
+    "delivery_charge": 1500,
+    "image":"https://www.mcdonalds.com/content/dam/usa/nfl/assets/nav/arches-logo_108x108.jpg",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "스파이시 맥앤치즈 세트",
+        "price": 8500,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1635296300519.png"
+      },
+      {
+        "name": "슈니언 버거 세트",
+        "price": 7300,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1624844254665.png"
+      },
+      {
+        "name": "트리플 치즈버거 세트",
+        "price": 7900,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1621834971998.png"
+      },
+      {
+        "name": "빅맥",
+        "price": 5300,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1583727855319.png"
+      },
+      {
+        "name": "맥스파이시 상하이 버거",
+        "price": 5300,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1583728352960.png"
+      },
+      {
+        "name": "1955 버거",
+        "price": 6400,
+        "url": "https://www.mcdonalds.co.kr/upload/product/pcfile/1599119647587.png"
+      }
+    ]
+  },
+  {
+    "name":"서브웨이 신창점",
+    "minimum":20000,
+    "delivery_charge": 1000,
+    "image":"https://postfiles.pstatic.net/MjAyMTExMDJfMTEg/MDAxNjM1ODQxMTY2MTAy.ZNiHPL1vfzR5wVowUo5TWAuY_Yh0VZ5fO4887b0xuFQg.UEmczvGf3-lYmCEEeUZA9wWSB2mlDEsk5NKEb7HUNNMg.JPEG.gosuofchangup/20211102171920.jpg?type=w580",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "이탈리안 비엠티 15cm 세트",
+        "price": 7600,
+        "url": "https://www.subway.co.kr/upload/menu/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%88-%EB%B9%84%EC%97%A0%ED%8B%B0_20211110010641754.png"
+      },
+      {
+        "name": "에그마요 15cm 세트\n",
+        "price": 6500,
+        "url": "https://www.subway.co.kr/upload/menu/%EC%97%90%EA%B7%B8%EB%A7%88%EC%9A%94_20211110010737997.png"
+      },
+      {
+        "name": "스테이크 & 치즈 15cm 세트",
+        "price": 8700,
+        "url": "https://www.subway.co.kr/upload/menu/%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC-&-%EC%B9%98%EC%A6%88_20211110010154210.png"
+      },
+      {
+        "name": "써브웨이 클럽 15cm 세트",
+        "price": 8100,
+        "url": "https://www.subway.co.kr/upload/menu/%EC%8D%A8%EB%B8%8C%EC%9B%A8%EC%9D%B4%ED%81%B4%EB%9F%BD_20211110010518376.png"
+      },
+      {
+        "name": "풀드포크 바비큐 15cm 세트",
+        "price": 8200,
+        "url": "https://www.subway.co.kr/upload/menu/%ED%92%80%EB%93%9C-%ED%8F%AC%ED%81%AC-%EB%B0%94%EB%B9%84%ED%81%90_20211110010658826.png"
+      },
+      {
+        "name": "로티세리 바비큐 치킨 15cm 세트",
+        "price": 8300,
+        "url": "https://www.subway.co.kr/upload/menu/%EB%A1%9C%ED%8B%B0%EC%84%B8%EB%A6%AC-%EB%B0%94%EB%B9%84%ED%81%90-%EC%B9%98%ED%82%A8_20211110010720911.png"
+      }
+    ]
+  },
+  {
+    "name":"공차 신창점",
+    "minimum":20000,
+    "delivery_charge": 1000,
+    "image":"https://www.gong-cha.co.kr/view/gongcha/images/common/logo.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "블랙티 카페 스무디 + 펄",
+        "price": 5500,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20220728/4MeQ6XUrNO0zdtgF_20220728.jpg"
+      },
+      {
+        "name": "까망돌 흑임자 스무디",
+        "price": 5500,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20220705/QMziuyf5L2JAv1nN_20220705.png"
+      },
+      {
+        "name": "골든펄 망고 패션프룻 그린티",
+        "price": 5300,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20220523/dVjxP2RuwvZEno0f_20220523.png"
+      },
+      {
+        "name": "납작복숭아 타르트 크러쉬",
+        "price": 5300,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20220418/824oEcBzWQqMt3rT_20220418.png"
+      },
+      {
+        "name": "아이스 연유 크림 카스테라",
+        "price": 3700,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20220729/gYA0z9ax8Rc7hPTu_20220729.jpg"
+      },
+      {
+        "name": "불닭베이크",
+        "price": 3900,
+        "url": "https://www.gong-cha.co.kr/uploads/product/20210707/1u8LtyNCWZ4dObqk_20210707.png"
+      }
+    ]
+  },
+  {
+    "name":"탐앤탐스 신창점",
+    "minimum":20000,
+    "delivery_charge": 1000,
+    "image":"https://www.tomntoms.com/assets/images/main/logo.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "망고패션 콜라겐 요거트 스무디",
+        "price": 6500,
+        "url": "https://ldb-phinf.pstatic.net/20201113_100/1605252204432YXRpW_PNG/%B8%C1%B0%ED%C6%D0%BC%C7_%C4%DD%B6%F3%B0%D5_%BF%E4%B0%C5%C6%AE_%BD%BA%B9%AB%B5%F0.png?type=f220_220_60_sharpen"
+      },
+      {
+        "name": "석류 콜라겐 요거트 스무디",
+        "price": 6500,
+        "url": "https://ldb-phinf.pstatic.net/20201113_154/16052523022398Fm89_PNG/%BC%AE%B7%F9_%C4%DD%B6%F3%B0%D5_%BF%E4%B0%C5%C6%AE_%BD%BA%B9%AB%B5%F0.png?type=f220_220_60_sharpen"
+      },
+      {
+        "name": "ICE 카라멜마끼아또",
+        "price": 5900,
+        "url": "https://ldb-phinf.pstatic.net/20200803_258/1596440345581FTWwb_PNG/ICE_%C4%AB%B6%F3%B8%E1%B8%B6%B3%A2%BE%C6%B6%C7.png?type=f220_220_60_sharpen"
+      },
+      {
+        "name": "자바칩탐앤치노",
+        "price": 6700,
+        "url": "https://ldb-phinf.pstatic.net/20200803_81/1596440828993Bnfdv_PNG/%C0%DA%B9%D9%C4%A8_%C5%BD%BE%D8%C4%A1%B3%EB.png?type=f220_220_60_sharpen"
+      },
+      {
+        "name": "허니버터브레드",
+        "price": 6500,
+        "url": "https://ldb-phinf.pstatic.net/20200803_52/1596441495042mxlwq_PNG/%C7%E3%B4%CF_%B9%F6%C5%CD_%BA%EA%B7%B9%B5%E5.png?type=f220_220_60_sharpen"
+      },
+      {
+        "name": "불고기 프레즐",
+        "price": 6600,
+        "url": "https://ldb-phinf.pstatic.net/20200803_187/1596441326082cSGwh_PNG/%BA%D2%B0%ED%B1%E2_%C7%C1%B7%B9%C1%F1.png?type=f220_220_60_sharpen"
+      }
+    ]
+  }
+]

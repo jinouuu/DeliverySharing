@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2675" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activitiy_reg.xml" value="0.34375" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_admin.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_main.xml" value="0.30344202898550726" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_orderdetail.xml" value="0.30344202898550726" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_ordershare.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_ordershare2.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_place_your_order.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_regi.xml" value="0.30344202898550726" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_register.xml" value="0.30344202898550726" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_restaurant_menu.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_splash.xml" value="0.2546875" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_splash_admin.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/activity_total_payment.xml" value="0.29744525547445255" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/cell.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/cell_content_layout.xml" value="0.2984375" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/cell_title_layout.xml" value="0.244017094017094" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/custom_tab_button.xml" value="0.271875" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/demo1.xml" value="0.11119554204660588" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/fragment_admin.xml" value="0.25" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/item_admin.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/menu_list_row.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/menu_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/mother.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/orderlist_admin.xml" value="0.259375" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/placeyourorder_list_row.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/recycler_ordershare_list.xml" value="0.33" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/recycler_restaurant_list_row.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/eco/AndroidStudioProjects/DeliveryApp/app/src/main/res/layout/views.xml" value="0.2546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

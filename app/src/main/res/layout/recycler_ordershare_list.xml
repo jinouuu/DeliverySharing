@@ -1,0 +1,507 @@
+<com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folding_cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- content header line -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:paddingBottom="7dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="7dp">
+
+            <TextView
+                android:id="@+id/shopName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/gmarket_sans_ttf_bold"
+                android:text="가게이름"
+                android:textColor="#5A5A5A"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:text=""-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:src="@drawable/menu_icon" />-->
+
+        </RelativeLayout>
+
+        <!-- content header image -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/head_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/head_image" />
+            <TextView
+                android:id="@+id/head_image_left_text"
+                style="@style/ContentImageBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head_image"
+                android:layout_alignStart="@id/head_image"
+                android:paddingStart="20dp"
+                android:text="주문마감시간" />
+            <TextView
+                style="@style/ContentImageBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head_image_left_text"
+                android:layout_alignStart="@id/head_image_left_text"
+                android:paddingBottom="10dp"
+                android:paddingStart="20dp"
+                android:text="~11:30" />
+
+            <TextView
+                android:id="@+id/orderState"
+                style="@style/ContentImageBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head_image"
+                android:layout_centerHorizontal="true"
+                android:text="주문상태" />
+            <TextView
+                android:id="@+id/orderState2"
+                style="@style/ContentImageBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orderState"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="10dp"
+                android:text="결제대기중" />
+
+            <TextView
+                android:id="@+id/head_image_right_text"
+                style="@style/ContentImageBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_image"
+                android:layout_alignEnd="@id/head_image"
+                android:paddingEnd="20dp"
+                android:text="배달도착시간" />
+            <TextView
+                style="@style/ContentImageBadgeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_image_right_text"
+                android:layout_alignRight="@id/head_image_right_text"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:text="12:30" />
+        </RelativeLayout>
+
+        <!-- content body layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgContent"
+            android:orientation="vertical"
+            android:paddingBottom="6dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="9dp">
+
+            <!-- avatar and name part -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/menuList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="주문 내역"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_below="@+id/menuList"
+                    android:id="@+id/menuList1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignTop="@id/menuList1"
+                    android:id="@+id/menuPrice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="300dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/menuList1"
+                    android:id="@+id/menuList2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignTop="@id/menuList2"
+                    android:id="@+id/menuPrice2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_alignRight="@+id/menuPrice1"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/menuList2"
+                    android:id="@+id/menuList3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignTop="@id/menuList3"
+                    android:id="@+id/menuPrice3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_alignRight="@+id/menuPrice1"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/menuList3"
+                    android:id="@+id/menuList4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignTop="@id/menuList4"
+                    android:id="@+id/menuPrice4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_alignRight="@+id/menuPrice1"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@id/menuList4"
+                    android:id="@+id/menuList5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_alignTop="@id/menuList5"
+                    android:id="@+id/menuPrice5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_alignRight="@+id/menuPrice1"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="9dp"
+                android:src="@color/contentDividerLine" />
+
+            <!-- addresses part -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/content_from_badge"
+                        style="@style/ContentMainBadgeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:text="배달주소" />
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/content_from_badge"
+                        android:layout_alignStart="@id/content_from_badge"
+                        android:layout_below="@id/content_from_badge"
+                        android:text="순천향대학교 향설생활관1"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="14sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/content_to_badge"
+                        style="@style/ContentMainBadgeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:text="전화번호" />
+
+                    <TextView
+                        android:id="@+id/phoneNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/content_to_badge"
+                        android:layout_alignStart="@id/content_to_badge"
+                        android:layout_below="@id/content_to_badge"
+                        android:text="010-7454-0405"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="16sp" />
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/content_to_address_2"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignLeft="@id/content_to_address_1"-->
+<!--                        android:layout_alignStart="@id/content_to_address_1"-->
+<!--                        android:layout_below="@id/content_to_address_1"-->
+<!--                        android:text="@string/content_to2_mock"-->
+<!--                        android:textColor="@color/mainTextColor"-->
+<!--                        android:textSize="14sp" />-->
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="7dp"
+                android:src="@color/contentDividerLine" />
+
+            <!-- dates part -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/content_delivery_date_badge"
+                        style="@style/ContentMainBadgeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:text="주문시간" />
+
+                    <TextView
+                        android:id="@+id/orderTime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/content_delivery_date_badge"
+                        android:layout_alignStart="@id/content_delivery_date_badge"
+                        android:layout_below="@id/content_delivery_date_badge"
+                        android:text="2022-10-22 10:30:21"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/content_deadline_badge"
+                        style="@style/ContentMainBadgeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:text="결제금액" />
+
+                    <TextView
+                        android:id="@+id/totalPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/content_deadline_badge"
+                        android:layout_alignStart="@id/content_deadline_badge"
+                        android:layout_below="@id/content_deadline_badge"
+                        android:text="182,500원"
+                        android:textColor="@color/mainTextColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/content_deadline_date"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignLeft="@id/content_deadline_time"-->
+<!--                        android:layout_alignStart="@id/content_deadline_time"-->
+<!--                        android:layout_below="@id/content_deadline_time"-->
+<!--                        android:text=""-->
+<!--                        android:textColor="@color/mainTextColor"-->
+<!--                        android:textSize="14sp" />-->
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- request button -->
+            <TextView
+                android:id="@+id/payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/btnRequest"
+                android:padding="10dp"
+                android:text="결제하기"
+                android:onClick="PaymentTest"
+                android:textAlignment="center"
+                android:textColor="@color/mainTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/payment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="주문 마감시간 이내 결제를 하지 않으면 주문이 취소됩니다."
+                android:textAlignment="center"
+                android:textColor="@color/contentBadgeTitle"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="주문시간" />
+
+            <TextView
+                android:id="@+id/shopName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="가게명"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/menuName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="주문메뉴" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</com.ramotion.foldingcell.FoldingCell>
